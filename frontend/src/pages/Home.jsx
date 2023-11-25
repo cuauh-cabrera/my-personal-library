@@ -51,13 +51,13 @@ const Home = () => {
                                     {index + 1}
                                 </td>
                                 <td className="border border-slate-700 rounded-md text-center">
-                                    {book.title}
+                                    {book._title}
                                 </td>
                                 <td className="border border-slate-700 rounded-md text-center max-md:hidden">
-                                    {book.author}
+                                    {book._author}
                                 </td>
                                 <td className="border border-slate-700 rounded-md text-center max-md:hidden">
-                                    {book.publishYear}
+                                    {book._publishYear}
                                 </td>
                                 <td className="border border-slate-700 rounded-md text-center">
                                     <div className="flex justify-center gap-x-4">
