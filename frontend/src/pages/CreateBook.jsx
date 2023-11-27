@@ -32,9 +32,9 @@ const CreateBook = () => {
     return (
         <div className="p-4 ">
             <BackButton/>
-            <h1 className="text-3x1 my-4">Create Book</h1>
+            <h1 className="text-3xl my-4">Create Book</h1>
             {loading ? <Spinner/> : ''}
-            <div className="flex flex-col border-2 border-sky-400 rounded-x1 w-[660px] py-4 mx-auto">
+            <div className="flex flex-col border-2 border-sky-400 rounded-xl w-[660px] py-4 mx-auto">
                 <div className="m-4">
                     <label className="text x-l mr-4 text-gray-500">Title</label>
                     <input
